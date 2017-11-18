@@ -1,1 +1,19 @@
-{{yield}}
+<p class="body">
+
+</p>
+
+<hr>
+
+{{#each model.comments as |comment|}}
+  {{post-comment
+    model=comment
+    delete-comment=(action 'deleteComment' comment)}}
+
+  {{else}}
+{{/each}}
+
+{{textarea value=postInfo.body class="reply-field"}}
+
+<div class="post-action">
+  <button>Reply</button>
+</div>
