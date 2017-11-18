@@ -15,5 +15,6 @@
 {{textarea value=postInfo.body class="reply-field"}}
 
 <div class="post-action">
-  <button>Reply</button>
+  <button
+  onclick={{action 'persistCommentDraft'}}>Reply </button>
 </div>
