@@ -1,5 +1,10 @@
 import DS from 'ember-data';
 
-export default DS.Model.extend({
+const { Model, attr, belongsTo } = DS;
 
+export default Model.extend({
+  post: belongsTo('post'),
+  body: attr('string'),
+  createdAt: attr('date'),
+  updatedAt: attr('string')
 });
