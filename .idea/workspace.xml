@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a14445e-b313-468a-a25d-613657ecd4e8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/posts/show.js" afterPath="$PROJECT_DIR$/app/controllers/posts/show.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/router.js" afterPath="$PROJECT_DIR$/app/router.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/states/post-info.js" afterPath="$PROJECT_DIR$/app/states/post-info.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/application.hbs" afterPath="$PROJECT_DIR$/app/templates/application.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/components/post-full.hbs" afterPath="$PROJECT_DIR$/app/templates/components/post-full.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/posts/show.hbs" afterPath="$PROJECT_DIR$/app/templates/posts/show.hbs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/app.css" afterPath="$PROJECT_DIR$/app/styles/app.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -90,18 +84,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="post-full.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/components/post-full.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="show.hbs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/posts/show.hbs">
           <provider selected="true" editor-type-id="text-editor">
@@ -122,11 +104,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="post-full.hbs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="post-full.hbs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/components/post-full.hbs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/styles/app.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="62" column="28" lean-forward="false" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -153,6 +145,7 @@
         <option value="$PROJECT_DIR$/app/router.js" />
         <option value="$PROJECT_DIR$/app/templates/application.hbs" />
         <option value="$PROJECT_DIR$/app/templates/components/post-full.hbs" />
+        <option value="$PROJECT_DIR$/app/styles/app.css" />
       </list>
     </option>
   </component>
@@ -360,12 +353,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1511031301668</updated>
-      <workItem from="1511031303925" duration="5527000" />
+      <workItem from="1511031303925" duration="5576000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5527000" />
+    <option name="totallyTimeSpent" value="5576000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="774" extended-state="6" />
@@ -527,6 +520,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="62" column="28" lean-forward="false" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="28" />
           <folding />
         </state>
       </provider>
