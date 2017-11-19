@@ -5,7 +5,8 @@ const PostInfoState = Ember.Object.Extend({});
 PostInfoState.reopenClass({
   initializeState(){
     return{
-      body: ''
+      body: '',
+      detailsOpen: false
     }
   }
 });

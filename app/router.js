@@ -8,7 +8,7 @@ const Router = EmberRouter.extend({
 
 Router.map(function() {
   this.route('posts', function() {
-    this.route('show');
+    this.route('show',  { path: ':id' });
   });
 });
 
